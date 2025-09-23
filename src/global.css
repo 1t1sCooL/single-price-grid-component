@@ -1,0 +1,29 @@
+:root {
+  --Teal500: hsla(179, 62%, 43%);
+  --Teal600: hsla(179, 62%, 33%);
+  --Teal400: hsla(179, 62%, 47%);
+  --Green400: hsl(71, 73%, 54%);
+  --Teal100: hsl(204, 43%, 93%);
+  --Gray500: hsl(218, 22%, 67%);
+}
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("../public/assets/fonts/Karla/Karla-VariableFont_wght.ttf")
+  format("truetype");
+  font-display: swap;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Teal100);
+  color: white;
+  font-family: Karla, sans-serif;
+}
