@@ -20,7 +20,7 @@ function App() {
                 <p className={styles.price}>
                     <span>$29</span> per month
                 </p>
-                <p className={styles.subsribe}>
+                <p className={styles.subscribe}>
                     Full access for less than $1 a day
                 </p>
                 <button className={styles.btn}>

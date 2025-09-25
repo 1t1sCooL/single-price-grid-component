@@ -5,7 +5,7 @@
     grid-template-areas: "heading heading"
                         "footing footing"
                         "footer footer";
-    max-width: 680px;
+    max-width: 800px;
     height: auto;
     background-color: white;
     border-radius: 8px;
@@ -13,7 +13,7 @@
     box-shadow: 0 10px 25px 0 rgba(0, 20, 0, 0.1);
 }
 .heading {
-    padding: 1rem;
+    padding: 3rem;
     grid-area: heading;
     display: flex;
     flex-direction: column;
@@ -21,13 +21,24 @@
     justify-content: center;
 }
 .heading h1 {
-    color: var(--Teal500)
+    color: var(--Teal500);
+    margin: 0;
+    margin-bottom: 1.8rem;
+    letter-spacing: -1px;
 }
 .heading h2 {
     color: var(--Green400);
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 1rem;
 }
 .heading p {
+    margin: 0;
     color: var(--Gray500);
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    line-height: 1.6;
+    letter-spacing: 0.003rem;
 }
 .footing {
     grid-area: footing;
@@ -35,8 +46,50 @@
     grid-template-columns: 1fr 1fr;
     background-color: var(--Teal500);
 }
+.priceBox{
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+}
+.priceBox h2{
+    margin-top: 3rem;
+    font-size: 1.4rem;
+}
+.price  span{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.price {
+    margin-bottom: .5rem;
+}
+.priceBox p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.priceBox .subscribe{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+.btn{
+    padding: 1.2rem;
+    width: 100%;
+    background-color: var(--Green400);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 10px 25px 0 rgba(0, 20, 0, 0.2);
+}
 .WhyUsBox{
     background-color: var(--Teal400);
+    padding: 3rem;
 }
 .footer {
     grid-area: footer;
