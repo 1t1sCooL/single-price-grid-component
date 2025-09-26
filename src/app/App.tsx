@@ -1,5 +1,5 @@
-import {Footer} from "./Footer.tsx";
-import {MainPage} from "./MainPage.tsx";
+import {Footer} from "../shared/ui/footer/Footer.tsx";
+import {MainPage} from "../pages/MainPage.tsx";
 
 function App() {
 

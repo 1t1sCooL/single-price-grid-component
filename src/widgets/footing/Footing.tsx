@@ -1,6 +1,6 @@
 import styles from './Footing.module.css'
-import {PriceBox} from "./PriceBox.tsx";
-import {WhyUsBox} from "./WhyUsBox.tsx";
+import {PriceBox} from "../priceBox/PriceBox.tsx";
+import {WhyUsBox} from "../whyUs/WhyUsBox.tsx";
 
 export const Footing = () => {
     return (

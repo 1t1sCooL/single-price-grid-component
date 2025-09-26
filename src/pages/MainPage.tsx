@@ -1,6 +1,6 @@
 import styles from "./MainPage.module.css";
-import {Heading} from "./Heading.tsx";
-import {Footing} from "./Footing.tsx";
+import {Heading} from "../widgets/heading/Heading.tsx";
+import {Footing} from "../widgets/footing/Footing.tsx";
 
 export const MainPage = () => {
     return (
