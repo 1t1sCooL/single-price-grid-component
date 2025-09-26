@@ -1,13 +1,11 @@
 .priceBox{
-    padding-left: 3rem;
-    padding-bottom: 3rem;
-    padding-right: 3rem;
+    padding: 0 3rem 3rem 3rem;
 }
 .priceBox h2{
     margin-top: 3rem;
     font-size: 1.4rem;
 }
-.price  span{
+.price span{
     font-size: 2.5rem;
     font-weight: 600;
 }
@@ -23,10 +21,9 @@
     font-weight: 300;
 }
 .priceBox .subscribe{
-    margin: 0;
+    margin: 0 0 2.4rem 0;
     font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 2.4rem;
 }
 .btn{
     padding: 1.2rem;
@@ -38,4 +35,32 @@
     font-size: 1.2rem;
     font-weight: 600;
     box-shadow: 0 10px 25px 0 rgba(0, 20, 0, 0.2);
+}
+@media (max-width: 850px) {
+    .priceBox{
+        padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+    .priceBox h2{
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+    .price span{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .price {
+        margin-bottom: .4rem;
+    }
+    .priceBox p{
+        gap: .5rem;
+        font-size: 1.2rem;
+    }
+    .priceBox .subscribe{
+        margin: 0 0 1.6rem 0;
+        font-size: 1.1rem;
+    }
+    .btn{
+        padding: 1rem;
+        font-size: 1rem;
+    }
 }

@@ -2,6 +2,7 @@
     grid-area: footer;
     text-align: center;
     color: var(--Teal500);
+    margin: 1rem;
 }
 .footer a:link{
     color: var(--Teal600);

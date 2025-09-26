@@ -1,7 +1,13 @@
 .footing {
     grid-area: footing;
     display: grid;
+    align-self: center;
     grid-template-columns: 1fr 1fr;
     background-color: var(--Teal500);
 }
-
+@media (max-width: 850px) {
+    .footing {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

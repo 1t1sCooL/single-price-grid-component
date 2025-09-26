@@ -12,3 +12,16 @@
     overflow: hidden;
     box-shadow: 0 10px 25px 0 rgba(0, 20, 0, 0.1);
 }
+@media (max-width: 850px) {
+    .container {
+        max-width: 700px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "heading"
+            "footing"
+            "footing"
+            "footer";
+        margin: 2rem 2rem 2rem 2rem;
+    }
+}
