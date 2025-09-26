@@ -28,7 +28,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Vercel](https://profile-card-component-drab-rho.vercel.app/)
+- Solution URL: [Vercel](https://single-price-grid-component-wihf.vercel.app/)
 - Live Site URL: [mmalabugin.ru/SinglePriceGridComponent/](https://mmalabugin.ru/SinglePriceGridComponent/)
 
 ## My process
