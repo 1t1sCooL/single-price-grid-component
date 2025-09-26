@@ -35,6 +35,11 @@
     font-size: 1.2rem;
     font-weight: 600;
     box-shadow: 0 10px 25px 0 rgba(0, 20, 0, 0.2);
+    transition: box-shadow, background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: var(--Green300);
+    box-shadow: 0 10px 15px 0 rgba(0, 20, 0, 0.2);
 }
 @media (max-width: 850px) {
     .priceBox{

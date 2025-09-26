@@ -11,11 +11,13 @@
     margin: 0 0 1.8rem 0;
     letter-spacing: -1px;
     font-size: 2.1rem;
+    transition: color 0.3s ease;
 }
 .heading h2 {
     color: var(--Green400);
     font-size: 1.4rem;
     margin: 0 0 1rem 0;
+    transition: color 0.3s ease;
 }
 .heading p {
     margin: 0 0 .5rem 0;
@@ -23,6 +25,12 @@
     font-size: 1.25rem;
     line-height: 1.6;
     letter-spacing: 0.003rem;
+}
+.heading h1:hover{
+    color: var(--Teal400);
+}
+.heading h2:hover{
+    color: var(--Green300);
 }
 @media (max-width: 850px) {
     .heading {
