@@ -1,0 +1,11 @@
+.footer {
+    grid-area: footer;
+    text-align: center;
+    color: var(--Teal500);
+}
+.footer a:link{
+    color: var(--Teal600);
+}
+.footer a:visited{
+    color: var(--Teal400);
+}

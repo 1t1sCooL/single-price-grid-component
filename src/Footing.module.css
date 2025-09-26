@@ -1,0 +1,7 @@
+.footing {
+    grid-area: footing;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--Teal500);
+}
+
